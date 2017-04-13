@@ -1,7 +1,7 @@
 import React from 'react';
 import Sensors from './sensors';
 
-const AVAILABLE_SENSORS = ['Accelerometer', 'Gyroscope'];
+const AVAILABLE_SENSORS = ['Accelerometer', 'Gyroscope', 'Magnetometer'];
 const optionsType = React.PropTypes.shape({
   updateInterval: React.PropTypes.number,
 });
